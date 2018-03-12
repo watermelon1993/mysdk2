@@ -1,2 +1,6 @@
 # mysdk2
-此项目就一个TimeUtil工具，为了就是把整型数字转换为时间计时模式，格式为61s -> 00:01:01
+## 计算60进制的util，输出格式为 时：分：秒（00:00:00）
+
+### 引入SDK compile 'com.melon.timeconsume:timeconsumelib:2.0.0'
+ </br> 直接调用 TimeUtil.timeFormat( int number);
+
